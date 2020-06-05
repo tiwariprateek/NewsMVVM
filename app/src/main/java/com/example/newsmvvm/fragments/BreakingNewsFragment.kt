@@ -91,7 +91,7 @@ class BreakingNewsFragment:Fragment(R.layout.fragment_breaking_news) {
                     &&isTotalMoreThanVisible && isScrolling
 
             if (shouldPaginate){
-                viewModel.getBreakingNews("us")
+                viewModel.getBreakingNews("in")
                 isScrolling=false
             }
 
